@@ -1,19 +1,20 @@
+
 import 'package:flutter/material.dart';
+import 'package:flutter_app_chk/pages/Image_page.dart';
+import 'package:flutter_app_chk/pages/home_page.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
+  runApp(Myapp());
+}
+class Myapp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return    MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter",
-      home: Scaffold(
-        backgroundColor: Colors.lightGreen ,
-        appBar: AppBar(
-          title: Text("Day 01"),
-        ),
-        body: Center(
-          child: Text("Hello world"),
-        ),
-      ),
-    ),
-  );
+      home: ImagePage(),
+    );
+
+  }
+
 }
