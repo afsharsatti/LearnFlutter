@@ -56,8 +56,7 @@ class loginPage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20,),
-            Text('I forgot my password',style: TextStyle(fontSize: 18,color: Colors.cyan),),
-
+            Text('I forgot my password',style: TextStyle(fontSize: 18,color: Colors.cyan),)
           ],
         ),
       ),
